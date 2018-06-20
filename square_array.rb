@@ -1,4 +1,4 @@
 def square_array(array)
-  array.each do |apple|
-    puts "Taking out #{apple}"
+  array.each do |element|
+    element**2
 end
